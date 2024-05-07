@@ -85,17 +85,21 @@
             min-width: 70%;
             max-width: 70%;
         }
-        .nav-link:hover{
-            transform: scale(1.2);
-            transition: transform 250ms;
+        /* Estilos para dispositivos no móviles (PC) */
+@media only screen and (min-width: 1430px) {
+    .nav-link:hover {
+      transform: scale(1.2);
+      transition: transform 250ms;
+    }
+  }
 
-        }
+  @media only screen and (min-width: 1430px) {
+    .navbar-brand:hover {
+      transform: scale(1.2);
+      transition: transform 500ms;
+    }
+  }
 
-        .navbar-brand:hover{
-            transform: scale(1.2);
-            transition: transform 500ms;
-
-        }
         .rounded:hover{
             transform: scale(1.1);
             transition: transform 500ms;
