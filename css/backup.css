@@ -85,7 +85,6 @@
             min-width: 70%;
             max-width: 70%;
         }
-    
         .nav-link:hover{
             transform: scale(1.2);
             transition: transform 250ms;
@@ -97,7 +96,6 @@
             transition: transform 500ms;
 
         }
-
         .rounded:hover{
             transform: scale(1.1);
             transition: transform 500ms;
